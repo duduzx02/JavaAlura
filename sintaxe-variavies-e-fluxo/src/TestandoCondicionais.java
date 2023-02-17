@@ -8,7 +8,7 @@ public class TestandoCondicionais {
 		} else if(idade >= 65){
 			System.out.println("Você tem mais de 65 anos!");
 		} else {
-			System.out.println("Você pode ser de menor ou idoso!");
+			System.out.println("Você é de menor!!");
 		}
 
 	}
