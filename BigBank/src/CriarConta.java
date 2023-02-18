@@ -15,5 +15,8 @@ public class CriarConta {
 		segundaConta.saldo += 1800;
 		System.out.println(segundaConta.saldo);
 		
+		System.out.println(segundaConta.agencia);
+		System.out.println(segundaConta.titular);
+		
 	}
 }
