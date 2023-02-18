@@ -7,7 +7,7 @@ public class TestandoObreak {
 	                if ( coluna > linha ) {
 	                    break;
 	                }
-	                System.out.print(coluna +1 );
+	                System.out.print(coluna+1 );
 	            }
 	            System.out.println();
 	        }
