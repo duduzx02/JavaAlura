@@ -8,7 +8,7 @@ public class TestaSomatoria {
 			somatoria += contador;
 			contador++;
 	
+			System.out.println(somatoria);
 		}
-		System.out.println(somatoria);
 	}
 }
