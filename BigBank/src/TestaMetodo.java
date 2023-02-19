@@ -23,7 +23,8 @@ public class TestaMetodo {
 		System.out.println(contaDaLivia.saldo);
 		System.out.println(contaDoEduardo.saldo);
 		
-		
+		contaDoEduardo.titular = "Eduardo";
+		System.out.println(contaDoEduardo.titular);
 		
 	}
 
