@@ -3,8 +3,7 @@ public class TestaGeteSet {
 
 	public static void main(String[] args) {
 		
-		Conta conta = new Conta();
-		conta.setNumero(1335);
+		Conta conta = new Conta(1337, 25987);
 		System.out.println(conta.getNumero());
 		
 		Cliente eduardo = new Cliente();
@@ -16,6 +15,8 @@ public class TestaGeteSet {
 		conta.getTitular().setProfissao("Programador");
 		
 		System.out.println(conta.getTitular().getProfissao());
+	
+		
 		
 		
 	}

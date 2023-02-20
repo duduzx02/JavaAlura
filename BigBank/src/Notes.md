@@ -10,3 +10,7 @@
 - Um método define o comportamnte ou maneira de fazer algo.
 - Um método pode conter nenhum, um ou mais parêmetros.
 - Um método tem que ser definido o seu retorno.
+
+## Sobre Contrutores
+
+- Construtores são utilziados para inicialização dos atributos
