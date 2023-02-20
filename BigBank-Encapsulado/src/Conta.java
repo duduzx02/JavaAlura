@@ -46,7 +46,7 @@ public class Conta {
 	}
 	
 	public int getAgencia() {
-		return agencia;
+		return this.agencia;
 	}
 	
 	public void setAgencia(int agencia) {
