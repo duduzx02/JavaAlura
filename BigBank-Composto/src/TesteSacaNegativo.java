@@ -6,7 +6,7 @@ public class TesteSacaNegativo {
 		conta.deposita(100);
 		conta.saca(200);
 		
-		System.out.println(conta.pegaSaldo());
+		System.out.println(conta.getSalgo());
 		
 
 
