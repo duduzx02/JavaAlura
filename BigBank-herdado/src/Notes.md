@@ -45,6 +45,10 @@
 - Quando uma classe herda de outra, ela também recebe seus atributos e métodos.
 - Mas não herda seus construtores.
 
+# Sobre Construtores
+- O Construtor default do java deixa de existir a partir do momento que algum é declarado na classe.
+- Assim que criarmos o nosso próprio construtor, o construtor default (sem parâmetro) deixa de existir, No entanto, nada impede adicionar o construtor default explicitamente.
+
 
 
 
