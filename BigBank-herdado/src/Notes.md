@@ -23,3 +23,41 @@
 # Sobrescrita
 - Sobrescrita é um conceito importante na herança
 - Para fazer uma sobrescrita precisamos colocar a mesma assinatura: <br> - Istoe é, a mesma visibilidade, mesmo retorno, mesmo nome e o mesmos parâmetros.
+
+# Dominando Herança
+- Uma classe pode ter várias filhas, mas apenas uma mãe.
+- A partir de uma instância de uma classe filha, podemos chamar qualquer método público que tenha sido declarado na classe mãe.
+- Uma classe pode ter diversas "Filhas e nteas" (que herdam umas das outras), mas não podemos escolher o que será herdado.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
