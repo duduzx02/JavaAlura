@@ -8,3 +8,9 @@
 - Repetição de código
 - Muitos ifs que nunca param de crescer
 - Código pouco expressivo.
+
+# herança
+- public class Gerente extends Funcionario{...}
+- A classe Gerente herdará todo o comportamento da classe Funcionario. Isto é, todos os métodos públicos podem ser utilizados na classe Gerente também.
+- A classe Gerente herda todas as características da classe Funcionario. Todos os atributos também fazem parte do Gerente.
+- Ao estender a classe Funcionario se diz que o Gerente é um Funcionario.
