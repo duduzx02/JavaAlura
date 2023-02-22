@@ -32,6 +32,11 @@
 # Private x Protected
 - Só a própria classe enxerga atributos/métodos (private) enquanto (protected) é visto pela própria classe mais as classes filhas.
 
+# Pilares da herança
+
+- <br> - Herança com Java
+- Reutilização e Polimorfismo
+
 
 
 
