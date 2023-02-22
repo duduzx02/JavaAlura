@@ -1,5 +1,4 @@
 # Construtores
-
 - O construtor Padrão é aquele que não nenhum parâmetro
 - Um construtor é chamado na inicialização/criação do projeto do objeto.
 
@@ -20,3 +19,7 @@
 - Private: Apenas visível dentro da classe
 - Protected: Visível dentro da classe e também para os filhos 	<br> -	Também é relacionada com herança
 - Public: visível em todo lugar
+
+# Sobrescrita
+- Sobrescrita é um conceito importante na herança
+- Para fazer uma sobrescrita precisamos colocar a mesma assinatura: <br> - Istoe é, a mesma visibilidade, mesmo retorno, mesmo nome e o mesmos parâmetros.
