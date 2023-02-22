@@ -37,6 +37,9 @@
 - <br> - Herança com Java
 - Reutilização e Polimorfismo
 
+# O que é polimorfismo?
+- No mundo do OO o polimorfismo permite referências de tipos de classes mais genéricas referenciem objetos mais específicos
+<br> ex: Funcionario f = new Gerente();
 
 
 
