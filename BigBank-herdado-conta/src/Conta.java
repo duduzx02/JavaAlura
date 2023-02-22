@@ -31,9 +31,8 @@ public class Conta {
 
 	}
 
-	public boolean tranfere(double valor, Conta destino) {
-		if (this.saldo >= valor) {
-			this.saldo -= valor;
+	public boolean transfere(double valor, Conta destino) {
+		if (this.saca(valor)) {
 			destino.deposita(valor);
 			System.out.println("O valor da tranferencia: " + valor);
 			return true;
