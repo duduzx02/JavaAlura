@@ -41,6 +41,10 @@
 - No mundo do OO o polimorfismo permite referências de tipos de classes mais genéricas referenciem objetos mais específicos
 <br> ex: Funcionario f = new Gerente();
 
+# Herança e Construtores
+- Quando uma classe herda de outra, ela também recebe seus atributos e métodos.
+- Mas não herda seus construtores.
+
 
 
 
