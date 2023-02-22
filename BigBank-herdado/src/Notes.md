@@ -14,3 +14,9 @@
 - A classe Gerente herdará todo o comportamento da classe Funcionario. Isto é, todos os métodos públicos podem ser utilizados na classe Gerente também.
 - A classe Gerente herda todas as características da classe Funcionario. Todos os atributos também fazem parte do Gerente.
 - Ao estender a classe Funcionario se diz que o Gerente é um Funcionario.
+
+# Visibilidade
+- A ordem correta dos modificadores de visibilidade, da menor visibilidade para a maior: private < protected < public
+- Private: Apenas visível dentro da classe
+- Protected: Visível dentro da classe e também para os filhos 	<br> -	Também é relacionada com herança
+- Public: visível em todo lugar
