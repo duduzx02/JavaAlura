@@ -29,6 +29,8 @@
 - A partir de uma instância de uma classe filha, podemos chamar qualquer método público que tenha sido declarado na classe mãe.
 - Uma classe pode ter diversas "Filhas e nteas" (que herdam umas das outras), mas não podemos escolher o que será herdado.
 
+# Private x Protected
+- Só a própria classe enxerga atributos/métodos (private) enquanto (protected) é visto pela própria classe mais as classes filhas.
 
 
 
