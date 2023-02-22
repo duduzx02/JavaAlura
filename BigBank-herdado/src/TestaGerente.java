@@ -13,6 +13,8 @@ public class TestaGerente {
 		System.out.println(g1.getSalario());
 
 		System.out.println(g1.autentica(8888));
+		
+		System.out.println(g1.getBonificacao());
 	}
 
 }
