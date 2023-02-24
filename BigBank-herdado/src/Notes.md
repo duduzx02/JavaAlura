@@ -65,6 +65,10 @@
 - Pode ter métodos abstratos (sem implementação), uma classe abstrata pode ter métodos sem implementação. Dessa forma obrigamos um filho implementar o método.
 - Não podem ser instanciadas, O que é abstrato (a classe) não pode se tornar concreto (objeto). Por isso não podemos instanciar objetos de uma classe abstrata.
 
+# Herdando de várias classes
+- Com o uso das interfaces conseguimos polimorfismo sem herança
+
+
 
 
 
