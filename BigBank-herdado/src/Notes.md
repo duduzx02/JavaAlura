@@ -73,7 +73,9 @@
 
 # Classes Abstratas x Interfaces
 - Podemos estender apenas uma classe abstrata, mas podemos implementar várias interfaces.
-- Todos 
+- Todos os métodos de uma interface são abstrtos, os de uma classe abstrata podem não ser.
+- Todos os métodos na interface são sempre abstratos e sempre públicos
+- Uma classe abstrata podemos ter métodos concretos e abstratos.
 
 
 
