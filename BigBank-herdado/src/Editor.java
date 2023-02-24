@@ -4,7 +4,7 @@ public class Editor extends Funcionario{
 	
 	public double getBonificacao() {
 		System.out.println("Bonificacao do EDITOR");
-		return super.getBonificacao() + 100.0;
+		return 150.0;
 	}
 
 }
