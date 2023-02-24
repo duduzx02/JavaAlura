@@ -53,6 +53,10 @@
 - Não podem ser instanciadas. Para instanciar, devemos criar primeiro uma classe filha não abstrata.
 - Uma classe abstrata representa um conceito, algo abstrato, e o compilador não permite instanciar um objeto dessa clase. Para instanciar é preciso criar primeiro uma classe filha não abstrata.
 
+# Sobre Méotods abstratos
+- Não possuem corpo (implementação), apenas definem a assinatura.
+- Um método abstrato define apenas a assinatura (visibilidade, retorno, nome do méotodo e parâmetro).
+
 
 
 
