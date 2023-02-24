@@ -1,8 +1,9 @@
 
-public class TestaGerente {
+public class TestaGerente{
 
 	public static void main(String[] args) {
-		Gerente g1 = new Gerente();
+		Gerente g1 = new Gerente(); 
+			
 		g1.setCpf("111.111.111-57");
 		g1.setNome("Eduardo");
 		g1.setSalario(5000.0);
