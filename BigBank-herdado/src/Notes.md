@@ -68,6 +68,13 @@
 # Herdando de várias classes
 - Com o uso das interfaces conseguimos polimorfismo sem herança
 
+# Conceitos de Interfaces
+- A interface é um contrato onde quem assina se responsabiliza por implementar esses métodos (cumprir o contrato)
+
+# Classes Abstratas x Interfaces
+- Podemos estender apenas uma classe abstrata, mas podemos implementar várias interfaces.
+- Todos 
+
 
 
 
