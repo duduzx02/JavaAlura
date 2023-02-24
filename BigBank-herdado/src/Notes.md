@@ -49,6 +49,10 @@
 - O Construtor default do java deixa de existir a partir do momento que algum é declarado na classe.
 - Assim que criarmos o nosso próprio construtor, o construtor default (sem parâmetro) deixa de existir, No entanto, nada impede adicionar o construtor default explicitamente.
 
+# Sobre Classes abstratas
+- Não podem ser instanciadas. Para instanciar, devemos criar primeiro uma classe filha não abstrata.
+- Uma classe abstrata representa um conceito, algo abstrato, e o compilador não permite instanciar um objeto dessa clase. Para instanciar é preciso criar primeiro uma classe filha não abstrata.
+
 
 
 
