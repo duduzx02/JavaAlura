@@ -78,6 +78,16 @@
 - Uma classe abstrata podemos ter métodos concretos e abstratos.
 
 
+# Sobre o polimorfismo
+- É a capacidade de um objeto ser referenciado por vários tipos.
+- Podemos comunicar com um objeto através de tipos de variáveis diferentes.
+- Temos polimorfismo via herança ou interface, quando uma classe extende de outra ou também quando uma classe implementa uma interface.
+
+# Sobre reutilização de código
+
+- Para reutilização de código na herança com Java se usa composição de código
+
+
 
 
 
