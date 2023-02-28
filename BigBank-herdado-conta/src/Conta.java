@@ -1,6 +1,6 @@
 
 public abstract class Conta {
-	private double saldo;
+	protected double saldo;
 	private int agencia;
 	private int numero;
 	private Cliente titular;
@@ -16,13 +16,13 @@ public abstract class Conta {
 	
 
 	public void deposita(double valor) {
-		this.saldo += valor;
+		this.setSaldo(this.getSaldo() + valor);
 		//System.out.println("Valor do deposito: " + valor);
 	}
 
 	public boolean saca(double valor) {
-		if (this.saldo >= valor) {
-			this.saldo -= valor;
+		if (this.getSaldo() >= valor) {
+			this.setSaldo(this.getSaldo() - valor);
 			System.out.println("O valor do saque: " + valor);
 			return true;
 		} else {
@@ -43,7 +43,7 @@ public abstract class Conta {
 	}
 	
 	public double getSalgo() {
-		return this.saldo;
+		return this.getSaldo();
 	}
 	
 	public int getNumero() {
@@ -85,5 +85,15 @@ public abstract class Conta {
 	
 	public static int getTotal() {
 		return Conta.total;
+	}
+
+
+	public double getSaldo() {
+		return saldo;
+	}
+
+
+	public void setSaldo(double saldo) {
+		this.saldo = saldo;
 	}
 }
